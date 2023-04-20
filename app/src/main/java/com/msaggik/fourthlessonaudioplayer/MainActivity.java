@@ -19,7 +19,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.util.Arrays;
 
-@SuppressLint("UseSwitchCompatOrMaterialCode") // аннотация к полю переключателя повтора воспроизведения
+@SuppressLint("UseSwitchCompatOrMaterialCode") 
 public class MainActivity extends AppCompatActivity implements MediaPlayer.OnPreparedListener, MediaPlayer.OnCompletionListener {
 
     // создание полей
